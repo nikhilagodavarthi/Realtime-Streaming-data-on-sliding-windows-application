@@ -67,7 +67,7 @@ def predictedDataPage():
         dummy.append(i['pH'])
         dummy.append(i['label'])
         dummy.append(i['timestamp'])
-        result=regressor.predict(i['Humidity'])
+        result=regressor.predict([i['Humidity']])
         dummy.append(result[0])
         data.append(dummy)
     return render_template('model.html',dashboard_data=data,len=len(data))
