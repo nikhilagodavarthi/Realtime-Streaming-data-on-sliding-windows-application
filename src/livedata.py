@@ -2,7 +2,7 @@ import datasource as ds
 import time
 import json
 from pymongo import MongoClient
-import datetime
+from datetime import datetime
 
 
 client=MongoClient('localhost',27017)
