@@ -27,7 +27,7 @@ def window3():
 
 def window4():
     dataset=pd.read_csv('dataset.csv')
-    X=dataset.iloc[:,0].values
+    X=dataset.iloc[:,1].values
     Y=dataset.iloc[:,-2].values
     X=X.reshape(-1,1)
     
