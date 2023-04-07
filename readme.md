@@ -12,5 +12,6 @@ Real Time Streaming Data on Sliding Windows Application
 1. paho-mqtt
 2. pandas
 3. scikit-learn
-4. awscli
+4. pymongo
+5. flask
 
